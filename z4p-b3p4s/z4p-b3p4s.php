@@ -39,9 +39,9 @@ if (isset($_GET['downloadfile'])) {
     }
 }
 //config shell
-$s_he_ll_Name = "Z4PHY B3P4S SH3LL";
+$s_he_ll_Name = "$ .: Z4PHY PHANT0MHIVE B3P4S:. $";
 $s_he_ll_Logo = "https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/ciel.png";
-$s_he_ll_Icon = "https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/ciel-phantomhive.jpg";
+$s_he_ll_Icon = "https://raw.githubusercontent.com/z4phyr/Z4PHY-PHANT0MHIVE/main/z4p-b3p4s/asset/icons.jpg";
 $s_he_ll_Footer = "<div class='p-4 font-bold text-center text-white dark:text-white'>© 2024 Copyright: <a class='text-red-800 dark:text-red-400' href='https://t.me/zaynphantomhive'>Z4PHY PHANT0MMHIVE</a></div>";
 
 //tailwind config text color
@@ -94,10 +94,10 @@ $whiteSemiParent2 = "rgba(255,255,255,0.2)";
 $whiteSemiParent3 = "rgba(255,255,255,0.3)";
 
 //icon config
-$filesIcon = "https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/files.png";
-$newFilesIcon = "https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/new-files.png";
-$folderIcon = "https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/folder.png";
-$newFolderIcon = "https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/new-folder.png";
+$filesIcon = "https://raw.githubusercontent.com/z4phyr/Z4PHY-PHANT0MHIVE/main/z4p-b3p4s/asset/files.png";
+$newFilesIcon = "https://raw.githubusercontent.com/z4phyr/Z4PHY-PHANT0MHIVE/main/z4p-b3p4s/asset/new-files.png";
+$folderIcon = "https://raw.githubusercontent.com/z4phyr/Z4PHY-PHANT0MHIVE/main/z4p-b3p4s/asset/folder.png";
+$newFolderIcon = "https://raw.githubusercontent.com/z4phyr/Z4PHY-PHANT0MHIVE/main/z4p-b3p4s/asset/new-folder.png";
 
 function Z4phyUname() {
     $hayoloh = 'h'.'tm'.'lspe'.'cialc'.'hars';
