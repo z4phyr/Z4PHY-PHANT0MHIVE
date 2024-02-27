@@ -503,7 +503,7 @@ if (empty($_SESSION['z4phyc0de'])) {
     }
 
     body {
-        background-image: url('https://i.pinimg.com/originals/45/92/64/45926407d771ede425af70370b8bd99f.gif'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5));
+        background-image: url('https://raw.githubusercontent.com/z4phyr/Z4PHY-PHANT0MHIVE/main/z4p-b3p4s/asset/background.gif'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5));
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
