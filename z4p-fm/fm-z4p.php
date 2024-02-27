@@ -23,7 +23,7 @@ $datetime_format = 'm/d/Y g:i A';
 $path_display_mode = 'full';
 $allowed_file_extensions = '';
 $allowed_upload_extensions = '';
-$favicon_path = 'https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/z4p-filemanager/img/kominfo.ico';
+$favicon_path = 'https://raw.githubusercontent.com/z4phyr/Z4PHY-PHANT0MHIVE/main/z4p-fm/img/kominfo.ico';
 $exclude_items = array();
 $online_viewer = 'google';
 $sticky_navbar = true;
@@ -205,7 +205,7 @@ if ($use_auth) {
                                     <div class="mb-3">
                                        <div class="brand">
                                         </div>
-                                        <div class="text-center"><img src="https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/z4p-filemanager/img/logo-kominfo.png" alt="logo icon" width="100" height="100">
+                                        <div class="text-center"><img src="https://raw.githubusercontent.com/z4phyr/Z4PHY-PHANT0MHIVE/main/z4p-fm/img/logo-kominfo.png" alt="logo icon" width="100" height="100">
                                             <h1 class="card-title">DASHBOARD LOGIN APP</h1>
                                         </div>
                                     </div>
