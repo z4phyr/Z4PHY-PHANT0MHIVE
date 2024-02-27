@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://raw.githubusercontent.com/z4phyr/Z4PHY-PHANT0MHIVE/main/z4p-b3p4s/asset/background.gif"), linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5));
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.terminal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Noto Sans Mono", monospace;
+  width: 400px;
+  height: 250px;
+  background: rgba(36, 38, 46, 1);
+  border: 1px solid #eaeaea;
+  animation: fadein 7s;
+}
+
+@keyframes fadein {
+  from {
+    filter: brightness(0%);
+  }
+
+  to {
+    filter: brightness(100%);
+  }
+}
+
+.terminal .root {
+  position: absolute;
+  padding: 5px;
+  font-size: 10px;
+  font-weight: 600;
+  color: #f00;
+}
+
+.terminal #app {
+  position: absolute;
+  top: 11.9%;
+  left: 9%;
+  font-size: 10px;
+  color: #00ff00;
+  padding: 5px;
+}
+
+.terminal .goz4p {
+  position: absolute;
+  top: 20%;
+  left: 2%;
+  font-family: monospace;
+  font-size: 10px;
+  color: #00ff00;
+}
+
+.terminal .goz4p input[type="text"] {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-family: monospace;
+  font-size: 10px;
+  color: #00ff00;
+}
+
+.terminal .goz4p input[type="text"]:hover {
+  border: none;
+  outline: none;
+}
+
+.headerTerm {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 399px;
+  height: 15px;
+  background: #eaeaea;
+}
+
+.headerTerm img {
+  width: 15px;
+  height: 15px;
+  padding-bottom: 3.5px;
+  padding-left: 3px;
+}
+
+.headerTerm span {
+  position: absolute;
+  left: 4%;
+  font-family: Monospace;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.headerTerm strong {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  font-family: Monospace;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 720px) {
+  .terminal {
+    width: 600px;
+    height: 350px;
+  }
+
+  .terminal .root {
+    font-size: 15px;
+  }
+
+  .terminal #app {
+    font-size: 15px;
+  }
+
+  .terminal .goz4p {
+    font-size: 15px;
+  }
+
+  .terminal .goz4p input[type="text"] {
+    font-size: 15px;
+  }
+
+  .headerTerm {
+    width: 599px;
+    height: 20px;
+  }
+
+  .headerTerm img {
+    width: 20px;
+    height: 20px;
+    padding-top: 2px;
+  }
+
+  .headerTerm span {
+    font-size: 13px;
+  }
+
+  .headerTerm strong {
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .terminal {
+    width: 800px;
+    height: 450px;
+  }
+
+  .terminal .root {
+    font-size: 20px;
+  }
+
+  .terminal #app {
+    font-size: 20px;
+  }
+
+  .terminal .goz4p {
+    font-size: 20px;
+  }
+
+  .terminal .goz4p input[type="text"] {
+    font-size: 20px;
+  }
+
+  .headerTerm {
+    width: 799px;
+    height: 25px;
+  }
+
+  .headerTerm img {
+    width: 25px;
+    height: 25px;
+    padding-top: 2.5px;
+  }
+
+  .headerTerm span {
+    font-size: 18px;
+  }
+
+  .headerTerm strong {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .terminal {
+    width: 280px;
+    height: 150px;
+  }
+
+  .terminal .root {
+    font-size: 6.5px;
+    padding: 2px;
+  }
+
+  .terminal #app {
+    font-size: 6.5px;
+    padding: 2px;
+  }
+
+  .terminal .goz4p {
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    font-family: monospace;
+    font-size: 10px;
+    color: #00ff00;
+  }
+
+  .terminal .goz4p input[type="text"] {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: monospace;
+    font-size: 10px;
+    color: #00ff00;
+  }
+
+  .terminal .goz4p input[type="text"]:hover {
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+
+  .terminal .goz4p input[type="text"]:active {
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+
+  .terminal .goz4p input[type="text"]:focus {
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+
+  .headerTerm {
+    width: 279px;
+    height: 8.5px;
+  }
+
+  .headerTerm img {
+    width: 8.5px;
+    height: 8.5px;
+    padding: 1.5px;
+    position: absolute;
+  }
+
+  .headerTerm span {
+    font-size: 6px;
+    left: 4%;
+  }
+
+  .headerTerm strong {
+    font-size: 6px;
+    right: 4%;
+  }
+}
