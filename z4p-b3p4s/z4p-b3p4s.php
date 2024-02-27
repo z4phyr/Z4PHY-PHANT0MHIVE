@@ -792,7 +792,7 @@ if (empty($_SESSION['Z4PHY'])) {
     <script type="text/javascript">
     var root = document.querySelector(".root");
     var name = `
-                                ╭──[root@Z4PHY PH4NT0MHIVE]<br>
+                                ╭──[root@Z4PHY-PH4NT0MHIVE]<br>
                                 ╰──➤
                                 `;
     root.innerHTML = name;
